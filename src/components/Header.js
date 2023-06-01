@@ -9,9 +9,7 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <p className="text-white mb-0">
-                Something about shipping and returns.
-              </p>
+              <p className="text-white mb-0">Free shipping & returns.</p>
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
@@ -29,7 +27,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white">Learning Ecommerce Website</Link>
               </h2>
             </div>
             <div className="col-5">
@@ -86,11 +84,11 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-bottom py-3">
+      <header className="header-bottom py-1">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12">
-              <div className="menu-bottom d-flex align-items-center gap-30">
+            <div className="col-6">
+              <div className="d-flex align-items-center gap-30">
                 <div>
                   <div className="dropdown">
                     <button
@@ -124,7 +122,7 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="menu-links">
-                  <div className="d-flex align-items-center gap-15">
+                  <div className="d-flex align-items-center gap-30">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/">Our Store</NavLink>
                     <NavLink to="/">Blogs</NavLink>
